@@ -1,0 +1,81 @@
+.bodyContainer {
+    background-image: url('https://images.axios.com/TJZo5yqHzpf3CX8_A4ah21Hy3UM=/0x0:5000x2813/1920x1080/2018/04/11/1523479224025.jpg');
+    background-size: cover;
+    transition: all 1000ms;
+    text-align: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.container {
+    position: relative;
+    height: 300px;
+    width: 350px;
+    background-color: rgba(215, 243, 248, 0.527);
+    left: 30%;
+    top: 20%;
+    transform: translate(50% 50%);
+    transition: ease-in-out 1300ms;
+    padding: 10px 10px 0 10px;
+    text-align: center;
+    border-radius: 6px;
+}
+
+.title {
+    text-transform: uppercase;
+    font-size: larger;
+    color: rgb(36, 36, 36);
+}
+
+input {
+    display: block;
+    border: none;
+    background: none;
+    color: black;
+    height: 30px;
+    width: 100px;
+    margin: 20px 20px 10px 20px;
+    transition: ease-in-out 1000ms;
+    padding: 5px;
+}
+
+input:focus {
+    border-bottom: 1px solid rgba(86, 86, 255, 0.548);
+    background-color: rgba(255, 248, 220, 0.698);
+    width: 70%;
+    transition: ease-in-out 700ms;
+}
+
+button {
+    color: rgb(32, 32, 32);
+    font-weight: bolder;
+    height: 30px;
+    width: 55px;
+    background-color: rgba(235, 235, 235, 0.774);
+    border-radius: 7px;
+    text-transform: uppercase;
+    transition: ease-in-out 700ms;
+    margin: 70px;
+    text-align: center;
+}
+
+button:hover {
+    color: rgb(29, 29, 29);
+    height: 35px;
+    width: 65px;
+    letter-spacing: 1px;
+    background-color: rgba(255, 239, 176, 0.856);
+    border-radius: 7px;
+    transition: ease-in-out 700ms;
+    text-align: center;
+}
+
+a {
+    color: rgba(75, 75, 75, 0.856);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(27, 27, 27);
+    text-decoration: none;
+}

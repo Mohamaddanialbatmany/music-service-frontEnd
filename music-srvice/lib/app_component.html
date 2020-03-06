@@ -1,0 +1,26 @@
+<div class="body">
+    <nav class="navbar-nav">
+        <div class="wrapper">
+            <div>
+                <a id="logoNav" [routerLink]="RoutePaths.home.toUrl() " [routerLinkActive]=" 'active' ">
+                    <img class="navImg" src="https://lh3.googleusercontent.com/proxy/Iqb3E99HRBnDXfM_ILtmhr_WvLBcI0cCVCBw-TOTdYG_bCjPFM4HfR-dZX8_Z5uyreghBQiahiSZ6rPG7SNGbkmEgG6loP998fW6fWjJ2PYCWqk4CQFObKLPMA" alt="LOGO">
+                </a>
+            </div>
+            <div class="registeration">
+                <a [routerLink]="RoutePaths.logein.toUrl()" [routerLinkActive]="'active'" class=" registerationBTN register ">logein</a>
+                <a [routerLink]="RoutePaths.register.toUrl() " [routerLinkActive]=" 'active' " class=" registerationBTN logein ">register</a>
+            </div>
+        </div>
+    </nav>
+    <div class="gridComponent ">
+        <div class="sidbar ">
+            <a class="btnSide" id="homeBtn" [routerLink]="RoutePaths.home.toUrl() " [routerLinkActive]=" 'active' ">HOME</a>
+            <a class="btnSide" id="listOne" [routerLink]="RoutePaths.listOne.toUrl() " [routerLinkActive]=" 'active' ">listOne</a>
+            <a class="btnSide" id="listTow" [routerLink]="RoutePaths.listTow.toUrl() " [routerLinkActive]=" 'active' ">listTow</a>
+            <a class="btnSide" id="ListTree" [routerLink]="RoutePaths.listTree.toUrl() " [routerLinkActive]=" 'active' ">listTree</a>
+        </div>
+        <div class="maincontent ">
+            <router-outlet [routes]="Routes.all "></router-outlet>
+        </div>
+    </div>
+</div>
